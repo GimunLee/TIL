@@ -1,4 +1,4 @@
-  const sidebar = require('./auto-sidebar-generator');
+const sidebar = require('./auto-sidebar-generator');
 
 module.exports = {
   title: 'Today Gimun Learned',
@@ -17,7 +17,11 @@ module.exports = {
     }]
   ],
   themeConfig: {
-   nav: [
+    sidebar: [
+      sidebar.getSidebarGroup('/goals-for/', '🎯Goals For', true),
+      sidebar.getSidebarGroup('/book-object/', '📖Book: Object', true)
+    ],
+    nav: [
       { text: 'GitHub', link: 'https://github.com/GimunLee/TIL' }
     ],
     smoothScroll: true,
