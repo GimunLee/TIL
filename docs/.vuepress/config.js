@@ -5,6 +5,9 @@ module.exports = {
   description: 'Personal Wiki (Today I Learned)',
   email: 'gimoon0226@naver.com',
   base: "/TIL/",
+  plugins: [
+    '@vuepress/back-to-top',
+  ],
   themeConfig: {
    nav: [
       { text: 'GitHub', link: 'https://github.com/GimunLee/TIL' }
