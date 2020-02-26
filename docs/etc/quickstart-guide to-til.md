@@ -1,4 +1,4 @@
-# TIL Guide
+# Quickstart guide to TIL
 
 *Aseembled by GimunLee*
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-## Process
+## Step
 
 ### 1. Create GitHub Repository & Clone
 
@@ -71,15 +71,15 @@ $ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 **2) gh-pages.pub (public key) → Deploy Keys**
 
-<img src="./resources/til-guide-002.png" height=300>
+<img src="./resources/quickstart-guide to-til-002.png" height=300>
 
 **3) gh-pages (private key) → Secrets**
 
-<img src="./resources/til-guide-003.png" height=300>
+<img src="./resources/quickstart-guide to-til-003.png" height=300>
 
 **4) Create wrokflow**
 
-<img src="./resources/til-guide-001.png" height=200>
+<img src="./resources/quickstart-guide to-til-001.png" height=200>
 
 **5) Change the content to the script below**
 
@@ -111,7 +111,7 @@ jobs:
 
 ### 7. GitHub Pages Setting
 
-<img src="./resources/til-guide-004.png" height=500>
+<img src="./resources/quickstart-guide to-til-004.png" height=500>
 
 ### 8. Add plugin
 
@@ -175,9 +175,10 @@ $ yarn build
 
 ## References
 
-- https://vuepress.vuejs.org/
-- https://zhuanlan.zhihu.com/p/93030651
+- [VuePress 공식사이트](https://vuepress.vuejs.org/)
+- [Vuepress + GitHub Actions 静态博客全攻略](https://zhuanlan.zhihu.com/p/93030651)
 - [Component 실습 | 유기체의 다락방](https://62che.com/blog/vuepress/Component-%EC%8B%A4%EC%8A%B5.html#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
 - [Tutorial :: Vuepress로 기술문서 빠르게 만들어보자!](https://limdongjin.github.io/vuejs/vuepress/)
 
 - [Today Yurim Learned](http://milooy.github.io/TIL/)
+
