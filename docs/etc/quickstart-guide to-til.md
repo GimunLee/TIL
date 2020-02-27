@@ -1,6 +1,6 @@
 # Quickstart guide to TIL
 
-*Aseembled by GimunLee*
+<AssembledByGimunLee/>
 
 <br/>
 
