@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "45597b7ba85a51d4a26415d86eaed743"
+    "revision": "7615bdcfed1d219ea1579388fc2e91c6"
   },
   {
     "url": "assets/css/0.styles.a12a2d44.css",
@@ -98,8 +98,8 @@ self.__precacheManifest = [
     "revision": "28d05b00cdc62d001ea58440c02f99bc"
   },
   {
-    "url": "assets/js/3.76d8c9c0.js",
-    "revision": "0d7bf164096bb5518acd4aef6bcde0b4"
+    "url": "assets/js/3.11d8bd21.js",
+    "revision": "66648635249391a694e289b3a2c10dab"
   },
   {
     "url": "assets/js/4.70a0d26d.js",
@@ -126,32 +126,32 @@ self.__precacheManifest = [
     "revision": "3396576b7b5cc027fc273cd8d0be9e83"
   },
   {
-    "url": "assets/js/app.73b58f6d.js",
-    "revision": "f6622040a92bc604af91e88199aa688e"
+    "url": "assets/js/app.49522cc5.js",
+    "revision": "9d72a905a4312cfb1a149d547e486d35"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "d919eae46a19a0297b3d48300aec9cad"
+    "revision": "ed9e6719beca953fa70b4c9ff6f29ae9"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "eb92047e8d0ac86924e3e2f16fa4377a"
+    "revision": "172b0650b0e5cb7b687997f6e259fde6"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "e630443f97266e6cea56e66c57eeebc9"
+    "revision": "6d0e32ccd605cdb0e2aa823aeb47cb4c"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "43090c7394c4cedbe838cfc9d872dd09"
+    "revision": "f31651cdc719c5c9dd9c6429da8baeb8"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "64a7d5f4891a7f9830d2649625572406"
+    "revision": "8d87009966bee3de2b1b82971e614383"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "cd4df8a75854bfe6da8e65cd94398b07"
+    "revision": "e786e622500cda1db6d3538043647a52"
   },
   {
     "url": "images/logo-144.png",
@@ -159,7 +159,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e7a1eaf15a3af5d82c7dd24a0f1be1dc"
+    "revision": "918db56d473ebe981850186afe345b6b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
