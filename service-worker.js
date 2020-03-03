@@ -27,10 +27,10 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7615bdcfed1d219ea1579388fc2e91c6"
+    "revision": "cdbf5d444a776d968c594ee23772031e"
   },
   {
-    "url": "assets/css/0.styles.a12a2d44.css",
+    "url": "assets/css/0.styles.af2d9615.css",
     "revision": "1d519b9198d0ee19756b3586319647fa"
   },
   {
@@ -70,88 +70,88 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.8ae8b0ca.js",
+    "url": "assets/js/10.5ef18e59.js",
     "revision": "317ea640b6ce2ba288ceb49f35c37b75"
   },
   {
-    "url": "assets/js/11.79f28ce7.js",
+    "url": "assets/js/11.88f4a0f8.js",
     "revision": "46433dc3b58ead749aa71a32c30ab3c7"
   },
   {
-    "url": "assets/js/12.3d27ceb9.js",
+    "url": "assets/js/12.5935b891.js",
     "revision": "5e257a4f7994b2d95c14fbdc793b3ceb"
   },
   {
-    "url": "assets/js/13.e9857828.js",
+    "url": "assets/js/13.567592c6.js",
     "revision": "a20a2cfa4c421b4d4642b56e530f9bfc"
   },
   {
-    "url": "assets/js/14.44f5ed52.js",
-    "revision": "3a0504249292593b563a20b61aea971f"
+    "url": "assets/js/14.bd2e252f.js",
+    "revision": "a78a1311cc015bea4c62fa0545b0df9c"
   },
   {
-    "url": "assets/js/15.fbbc06e7.js",
+    "url": "assets/js/15.4400e0d6.js",
     "revision": "b9ae639b7d42b705396310ff6ee807ba"
   },
   {
-    "url": "assets/js/2.ba3ece6f.js",
+    "url": "assets/js/2.e1d03a35.js",
     "revision": "28d05b00cdc62d001ea58440c02f99bc"
   },
   {
-    "url": "assets/js/3.11d8bd21.js",
+    "url": "assets/js/3.cfb21307.js",
     "revision": "66648635249391a694e289b3a2c10dab"
   },
   {
-    "url": "assets/js/4.70a0d26d.js",
+    "url": "assets/js/4.b93a1398.js",
     "revision": "e79806b38d7f8fae29cbee2b37b23d1b"
   },
   {
-    "url": "assets/js/5.7eca0390.js",
-    "revision": "0318d3288fd0a920adad2d488fa53c25"
+    "url": "assets/js/5.f15eec7a.js",
+    "revision": "15b5e07faeb5d4a896f927698a31e6bd"
   },
   {
-    "url": "assets/js/6.d6d561a0.js",
+    "url": "assets/js/6.a23b55bd.js",
     "revision": "f3c33a3ed0c83e40e43ad42c0c6e8355"
   },
   {
-    "url": "assets/js/7.3efef9a3.js",
+    "url": "assets/js/7.fd366d39.js",
     "revision": "47aef43703a109a0ec5741a3489ad955"
   },
   {
-    "url": "assets/js/8.c29bcc51.js",
+    "url": "assets/js/8.7323cd47.js",
     "revision": "c976135656bcba6dc1e160e5974f680e"
   },
   {
-    "url": "assets/js/9.e22bb99d.js",
+    "url": "assets/js/9.e3e2a205.js",
     "revision": "3396576b7b5cc027fc273cd8d0be9e83"
   },
   {
-    "url": "assets/js/app.49522cc5.js",
-    "revision": "9d72a905a4312cfb1a149d547e486d35"
+    "url": "assets/js/app.bf2c22d3.js",
+    "revision": "cbe2a4574acd910d8b3dbfe1cac372d9"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "ed9e6719beca953fa70b4c9ff6f29ae9"
+    "revision": "1d7d089daddd9fc557a880b50994215e"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "172b0650b0e5cb7b687997f6e259fde6"
+    "revision": "7538ef5bef01f0cd0fc38d9a99e4c485"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "6d0e32ccd605cdb0e2aa823aeb47cb4c"
+    "revision": "43933d75135508e48068f1d09b695369"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "f31651cdc719c5c9dd9c6429da8baeb8"
+    "revision": "b8a926a73ec7c56e5fee98f0ae15c9a5"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "8d87009966bee3de2b1b82971e614383"
+    "revision": "500861d3d0760340343ef40b97429e19"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "e786e622500cda1db6d3538043647a52"
+    "revision": "7f8368969265c48a93ac0aa049926ef0"
   },
   {
     "url": "images/logo-144.png",
@@ -159,7 +159,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "918db56d473ebe981850186afe345b6b"
+    "revision": "643e35bdece87634c485c766631e0045"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
