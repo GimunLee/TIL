@@ -20,6 +20,7 @@ module.exports = {
     sidebar: [
       sidebar.getSidebarGroup('/goals-for/', '🎯Goals For', true),
       sidebar.getSidebarGroup('/book-object/', '📖Book: Object', true),
+      sidebar.getSidebarGroup('/book-design-patterns/', '📖Book: Design Patterns', true),
       sidebar.getSidebarGroup('/etc/', '📚ETC', true)
     ],
     nav: [
