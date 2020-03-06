@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "23f2bcd1425cd59c107c27821a5e60ff"
+    "revision": "ad06c5362c16af6f80b0d2e51fe155ba"
   },
   {
-    "url": "assets/css/0.styles.795377f9.css",
-    "revision": "991d40832d58be3d67166389aa04b61d"
+    "url": "assets/css/0.styles.579c7813.css",
+    "revision": "07e411f573607a4158100e470b88694e"
   },
   {
     "url": "assets/img/factory-pattern-01-001.3a74ceb4.png",
@@ -198,7 +198,7 @@ self.__precacheManifest = [
     "revision": "5734fb89a35a33dfe366c21ce4a86e3c"
   },
   {
-    "url": "assets/js/4.a3bb3a1a.js",
+    "url": "assets/js/4.98068aee.js",
     "revision": "a48b88da4b1e97741ee963d7a403e4e0"
   },
   {
@@ -218,52 +218,52 @@ self.__precacheManifest = [
     "revision": "49b0f580c7129ea7ba7a2524a34d8b88"
   },
   {
-    "url": "assets/js/9.f926b144.js",
+    "url": "assets/js/9.9dfb2b84.js",
     "revision": "2758aa597853038a2ac54a85d985cb86"
   },
   {
-    "url": "assets/js/app.5847565f.js",
-    "revision": "ee4a289413f2be63c386bf472c360129"
+    "url": "assets/js/app.56f960ba.js",
+    "revision": "d499a49d10feee5300b178bd85af903b"
   },
   {
     "url": "book-head-first-design-patterns/factory-pattern-(1)-factory-method-pattern.html",
-    "revision": "69ae96a677c6e19419882bd7a501e97f"
+    "revision": "e40c8d7d1badac8ea4f9e9baabece9ba"
   },
   {
     "url": "book-head-first-design-patterns/factory-pattern-(2)-abstract-factory-fattern.html",
-    "revision": "3021189ffc3cef98785d25de2890adfe"
+    "revision": "0d792ce7004e8eccfa388f7a39163bdd"
   },
   {
     "url": "book-head-first-design-patterns/strategy-pattern.html",
-    "revision": "91ecfe8a26bf2b6e1d31c3e8326b7de0"
+    "revision": "3270bb7f6dac96bedac4f6b395648c59"
   },
   {
     "url": "book-head-first-design-patterns/template-method-pattern.html",
-    "revision": "32ad51faaa2e14a3f997d684f088b25a"
+    "revision": "5995291081b67d51244526c2a5fd4772"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "0af2ee1480f95be54ae64dec555633f9"
+    "revision": "1eb04cf192dfc8197ba7e612f5d05a46"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "ff18b79727cdb578436502f5a457e57a"
+    "revision": "4305a9a60d0ae40b286260822fc0fecf"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "da29f912dd331cc27fbbf1a733135ac9"
+    "revision": "7fc736efac4509f06e0cde169939625e"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "8c5585cba11de56e00ef3e07463456c8"
+    "revision": "130dbe193596db4d5e40a0d3cf068202"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "deb7ee8954db93212f4d0f9437bb4d82"
+    "revision": "4984530987cde0def6e169d285eb7fd8"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "7b41789196522a60d0933e29526e5bc5"
+    "revision": "7435f23925ca6a7ed0f7e8dc88661532"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7603fa50d88aa35af279f91158a8c198"
+    "revision": "a2e8049f85eed32b309a357d5608d933"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
