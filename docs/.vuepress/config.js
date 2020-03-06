@@ -23,6 +23,7 @@ module.exports = {
       sidebar.getSidebarGroup('/book-design-patterns/', '📖Book: Design Patterns', true),
       sidebar.getSidebarGroup('/etc/', '📚ETC', true)
     ],
+    sidebarDepth: 0,
     nav: [
       { text: 'GitHub', link: 'https://github.com/GimunLee/TIL' }
     ],
