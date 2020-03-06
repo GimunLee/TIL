@@ -7,5 +7,6 @@
   font-family: fantasy;
   margin: 0;
   font-style: oblique;
+  width: 1vw;
 }
 </style>
