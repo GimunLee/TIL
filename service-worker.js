@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "fe09e18a2e8e63c082ada387fb990d36"
+    "revision": "24cd1df373a4c205ebdda55d11dbc672"
   },
   {
     "url": "assets/css/0.styles.989bd272.css",
@@ -222,48 +222,48 @@ self.__precacheManifest = [
     "revision": "0cbe7df237678280548aea8727e45479"
   },
   {
-    "url": "assets/js/app.4a6565d4.js",
-    "revision": "12e9ba85819d0402a573371e34890c6b"
+    "url": "assets/js/app.57567a82.js",
+    "revision": "9f1d1a951a54b87010da16cd1547db52"
   },
   {
     "url": "book-head-first-design-patterns/factory-pattern-(1)- factory-method-pattern.html",
-    "revision": "16973a4cddd69f0585e31ec829f26194"
+    "revision": "dd9d7906ef8c46a8328ecc69da012a96"
   },
   {
     "url": "book-head-first-design-patterns/factory-pattern-(2)-abstract-factory-fattern.html",
-    "revision": "cf8ab6241f648e229b2b7246330a3420"
+    "revision": "46f3725cdc9cd0549510be95e4f16520"
   },
   {
     "url": "book-head-first-design-patterns/strategy-pattern.html",
-    "revision": "76dafc5eaac7ae603fa566b0c2f476fc"
+    "revision": "675ea5ec890ea956d2f114ea2d6ffb7c"
   },
   {
     "url": "book-head-first-design-patterns/template-method-pattern.html",
-    "revision": "ddb9a557563fe5fb8c11872c7e84568e"
+    "revision": "86a9c66e73dc7865d49e492ca506c71c"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "bf4be96084213711dc499818f0a968c9"
+    "revision": "cfe5f935c656bcebb977215bea13b04d"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "804d50ac5bc832179136370f5e6c23ac"
+    "revision": "e0f53b051b4bd033e378818bbfaa81fe"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "3cc4243b42f306970c30197ab1863bdb"
+    "revision": "e0d84faf7eda367448831a45a6e6ee57"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "e39117047792fbc1a43c974677547be0"
+    "revision": "ab27b17e7d63fe7af6da11aff5d127f8"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "5e4419c8878e06113d53760e6a7726e4"
+    "revision": "a45e053d8ba86c688dec1f596930f2fc"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "64d809963281eda663611d6de120af9e"
+    "revision": "94f19b387f269317d461a45878bf7b2e"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0fa5ac2f4d42a3dbfc2d3ba15681d84f"
+    "revision": "a7da920bfcbc05cb5c9d491d1c82a1da"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
