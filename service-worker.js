@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "be0dc13f3142420d4a0225f1e81801ac"
+    "revision": "fe09e18a2e8e63c082ada387fb990d36"
   },
   {
     "url": "assets/css/0.styles.989bd272.css",
@@ -158,8 +158,8 @@ self.__precacheManifest = [
     "revision": "bb91bfa52a7b84b8da47e2f6d2260098"
   },
   {
-    "url": "assets/js/12.5d876d7b.js",
-    "revision": "3682b70360ff5c76a8d27c1cd3869cdd"
+    "url": "assets/js/12.122321ef.js",
+    "revision": "d4c9e1ebc95eec3b039b7eba4d7cffc9"
   },
   {
     "url": "assets/js/13.003c5fb5.js",
@@ -194,20 +194,20 @@ self.__precacheManifest = [
     "revision": "bbe179a7186dc734fa66513f3c010105"
   },
   {
-    "url": "assets/js/3.7e05f5ea.js",
-    "revision": "466498f36868cbc68faca5ce4e43016e"
+    "url": "assets/js/3.f54bee01.js",
+    "revision": "702ea09f18de3b4c487b9e215eeb1b9a"
   },
   {
     "url": "assets/js/4.f1685902.js",
     "revision": "d7859674b634cbdac690445522d0d938"
   },
   {
-    "url": "assets/js/5.358fb5d7.js",
-    "revision": "615850123230aa8790c32c3ea48be4a2"
+    "url": "assets/js/5.658e7bc4.js",
+    "revision": "fbb3760a9fcdf2eed462fa55fca423a2"
   },
   {
-    "url": "assets/js/6.217ef06d.js",
-    "revision": "054a43534c85b699cfd1d71c5dd446a9"
+    "url": "assets/js/6.cd4fb005.js",
+    "revision": "b2888669d55da2b05d76d4233ff2ea8c"
   },
   {
     "url": "assets/js/7.00cff3dd.js",
@@ -222,48 +222,48 @@ self.__precacheManifest = [
     "revision": "0cbe7df237678280548aea8727e45479"
   },
   {
-    "url": "assets/js/app.723d2e85.js",
-    "revision": "eb9e76f158f19585a58432bf9dc282ef"
+    "url": "assets/js/app.4a6565d4.js",
+    "revision": "12e9ba85819d0402a573371e34890c6b"
   },
   {
-    "url": "book-design-patterns/factory-pattern- factory-method-pattern.html",
-    "revision": "76e78da9c3278b250a51817bdf283957"
+    "url": "book-head-first-design-patterns/factory-pattern-(1)- factory-method-pattern.html",
+    "revision": "16973a4cddd69f0585e31ec829f26194"
   },
   {
-    "url": "book-design-patterns/factory-pattern-abstract-factory-fattern.html",
-    "revision": "c0e70ee8b6b66e2a3afb28b3d24ac0c3"
+    "url": "book-head-first-design-patterns/factory-pattern-(2)-abstract-factory-fattern.html",
+    "revision": "cf8ab6241f648e229b2b7246330a3420"
   },
   {
-    "url": "book-design-patterns/strategy-pattern.html",
-    "revision": "d6f73c108f235142994e1ff25f94fdcc"
+    "url": "book-head-first-design-patterns/strategy-pattern.html",
+    "revision": "76dafc5eaac7ae603fa566b0c2f476fc"
   },
   {
-    "url": "book-design-patterns/template-method-pattern.html",
-    "revision": "3e569d812d375377c52c5acf826d6d3a"
+    "url": "book-head-first-design-patterns/template-method-pattern.html",
+    "revision": "ddb9a557563fe5fb8c11872c7e84568e"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "7de27256a3142708d40297c473d8ec2d"
+    "revision": "bf4be96084213711dc499818f0a968c9"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "f33a718d6df172b9505a7fcadb952a47"
+    "revision": "804d50ac5bc832179136370f5e6c23ac"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "2422421d02d0eec782f7c6f677ca4663"
+    "revision": "3cc4243b42f306970c30197ab1863bdb"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "e797b3590eddada7e8e26a259f816e64"
+    "revision": "e39117047792fbc1a43c974677547be0"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "d17f4ccc4a9a8b50d1f9bedf38b69b49"
+    "revision": "5e4419c8878e06113d53760e6a7726e4"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "fe7973b2a88c3dbcfb47a383f542f218"
+    "revision": "64d809963281eda663611d6de120af9e"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d1d2dd9b99330553b8444a38c7688ae5"
+    "revision": "0fa5ac2f4d42a3dbfc2d3ba15681d84f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
