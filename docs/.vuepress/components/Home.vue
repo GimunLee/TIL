@@ -9,7 +9,7 @@
     <br/>
     
     <div class="contents">
-      <p>contents</p>
+      <img class="profile" src="./resources/profile-made-by-anna.png">
     </div>
   
     <div class="footer">
@@ -29,6 +29,15 @@
 <style>
 .footer{
   text-align: center;
+}
+
+.contents {
+  text-align: center;
+}
+
+.contents.profile {
+  height: 1.2vh;
+  display: inline-block;
 }
 
 .copyright {
