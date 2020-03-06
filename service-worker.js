@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "24cd1df373a4c205ebdda55d11dbc672"
+    "revision": "cf68a4eab99a2ef08a084a1acf22bb77"
   },
   {
     "url": "assets/css/0.styles.989bd272.css",
@@ -182,8 +182,8 @@ self.__precacheManifest = [
     "revision": "f85e2fb61f767b40f3a6e6c7cc3bc11a"
   },
   {
-    "url": "assets/js/18.f157032b.js",
-    "revision": "4c2138bacd4cfd37bae8e7ab7ec09faa"
+    "url": "assets/js/18.21ede2e6.js",
+    "revision": "d2093d5e66b189d070c1646d9805416a"
   },
   {
     "url": "assets/js/19.78c0de15.js",
@@ -202,7 +202,7 @@ self.__precacheManifest = [
     "revision": "d7859674b634cbdac690445522d0d938"
   },
   {
-    "url": "assets/js/5.658e7bc4.js",
+    "url": "assets/js/5.cfc250a9.js",
     "revision": "fbb3760a9fcdf2eed462fa55fca423a2"
   },
   {
@@ -222,48 +222,48 @@ self.__precacheManifest = [
     "revision": "0cbe7df237678280548aea8727e45479"
   },
   {
-    "url": "assets/js/app.57567a82.js",
-    "revision": "9f1d1a951a54b87010da16cd1547db52"
+    "url": "assets/js/app.ce1c2258.js",
+    "revision": "e9c921106a91c0e30f26562ad7c4a875"
   },
   {
-    "url": "book-head-first-design-patterns/factory-pattern-(1)- factory-method-pattern.html",
-    "revision": "dd9d7906ef8c46a8328ecc69da012a96"
+    "url": "book-head-first-design-patterns/factory-pattern-(1)-factory-method-pattern.html",
+    "revision": "9fd0f49f1cb49afc73321bd596812523"
   },
   {
     "url": "book-head-first-design-patterns/factory-pattern-(2)-abstract-factory-fattern.html",
-    "revision": "46f3725cdc9cd0549510be95e4f16520"
+    "revision": "e951c8710543bd43bd08e81aeaacc0e2"
   },
   {
     "url": "book-head-first-design-patterns/strategy-pattern.html",
-    "revision": "675ea5ec890ea956d2f114ea2d6ffb7c"
+    "revision": "5c8b6fa2d1d35594e286de9d19267b50"
   },
   {
     "url": "book-head-first-design-patterns/template-method-pattern.html",
-    "revision": "86a9c66e73dc7865d49e492ca506c71c"
+    "revision": "568f46daa8c3b5502675d9b799cf9bef"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "cfe5f935c656bcebb977215bea13b04d"
+    "revision": "ab4e7a91bd9f07ffbe08d3dc52c46d4b"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "e0f53b051b4bd033e378818bbfaa81fe"
+    "revision": "117e36cea5f874faabfe4fc4bc026898"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "e0d84faf7eda367448831a45a6e6ee57"
+    "revision": "e4ce78cdf4a09b6b91b7667fd8ccb1e7"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "ab27b17e7d63fe7af6da11aff5d127f8"
+    "revision": "a7f0e48e01271441cbddc9302f4b3bc5"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "a45e053d8ba86c688dec1f596930f2fc"
+    "revision": "105340e7440702d52ae8bf5429e4c5fb"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "94f19b387f269317d461a45878bf7b2e"
+    "revision": "d0d64bd3f3846dfce340f6119685f725"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a7da920bfcbc05cb5c9d491d1c82a1da"
+    "revision": "2c1e4b74d8f459ef1df21cb8c469823a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
