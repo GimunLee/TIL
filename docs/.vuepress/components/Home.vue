@@ -40,7 +40,6 @@
 }
 
 .footer{
-  width: 1vw;
   text-align: center;
 }
 
