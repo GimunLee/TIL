@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3b438251e5036fc1a8a395662366b918"
+    "revision": "be0dc13f3142420d4a0225f1e81801ac"
   },
   {
     "url": "assets/css/0.styles.989bd272.css",
@@ -222,48 +222,48 @@ self.__precacheManifest = [
     "revision": "0cbe7df237678280548aea8727e45479"
   },
   {
-    "url": "assets/js/app.d9302931.js",
-    "revision": "a5b3614b650910b5caede01ddcb01dea"
+    "url": "assets/js/app.723d2e85.js",
+    "revision": "eb9e76f158f19585a58432bf9dc282ef"
   },
   {
     "url": "book-design-patterns/factory-pattern- factory-method-pattern.html",
-    "revision": "97bc7cc32f4ff92f0f430918ae68bd82"
+    "revision": "76e78da9c3278b250a51817bdf283957"
   },
   {
     "url": "book-design-patterns/factory-pattern-abstract-factory-fattern.html",
-    "revision": "ec11ffc2a4a484aa31b7d346d4e1d643"
+    "revision": "c0e70ee8b6b66e2a3afb28b3d24ac0c3"
   },
   {
     "url": "book-design-patterns/strategy-pattern.html",
-    "revision": "05fcc2010c9e7b6288f5efb48efd9116"
+    "revision": "d6f73c108f235142994e1ff25f94fdcc"
   },
   {
     "url": "book-design-patterns/template-method-pattern.html",
-    "revision": "703f6a57d501a97becf3706b2956de3d"
+    "revision": "3e569d812d375377c52c5acf826d6d3a"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "6d87b4e92279f32cf6d7a166b4734921"
+    "revision": "7de27256a3142708d40297c473d8ec2d"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "bd6e25d00e7ea8aaf6313c93b6570092"
+    "revision": "f33a718d6df172b9505a7fcadb952a47"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "731a747fb19e8bd1bdea8f04c92b330e"
+    "revision": "2422421d02d0eec782f7c6f677ca4663"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "c92be2dd2fb8a84974bb81dbbc9adcc5"
+    "revision": "e797b3590eddada7e8e26a259f816e64"
   },
   {
     "url": "etc/quickstart-guide to-til.html",
-    "revision": "e3e2294c0dd1750c643ecc5316b5bdf2"
+    "revision": "d17f4ccc4a9a8b50d1f9bedf38b69b49"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "178aaddc8f3e2a7311af2d4afd4fb538"
+    "revision": "fe7973b2a88c3dbcfb47a383f542f218"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "57d194333290e18c7e304fe6304fd867"
+    "revision": "d1d2dd9b99330553b8444a38c7688ae5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
