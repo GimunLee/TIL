@@ -19,8 +19,8 @@ module.exports = {
   themeConfig: {
     sidebar: [
       sidebar.getSidebarGroup('/goals-for/', '🎯Goals For', true),
-      sidebar.getSidebarGroup('/book-object/', '📖Book: Object', true),
-      sidebar.getSidebarGroup('/book-head-first-design-patterns/', '📖Book: Head First Design Patterns', true),
+      sidebar.getSidebarGroup('/book-object/', '📖Object', true),
+      sidebar.getSidebarGroup('/book-head-first-design-patterns/', '📖Head First Design Patterns', true),
       sidebar.getSidebarGroup('/etc/', '📚ETC', true)
     ],
     sidebarDepth: 0,
