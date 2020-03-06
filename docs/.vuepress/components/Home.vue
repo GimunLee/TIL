@@ -2,19 +2,24 @@
   <div>
     <div class="title">
       <h1>
-        🏃‍♂️ Practice Makes Perfect.
+        🏃‍♂️ Practice Makes Perfect 💯
       </h1>
+      <AssembledByGimunLee/>
     </div>
-
+    <br/>
     <div>
-      <h2>TEST</h2>
+      <p>contents</p>
+    </div>
   </div>
 
-<div class="footer">
-  <hr>
-  <p class="copyright">© 2020 GimunLee</p>    
-  <p class="copyright">This repository is licensed under the MIT license. See <a href="https://github.com/GimunLee/TIL/blob/master/LICENSE">LICENSE</a> for details.</p>
-</div>
+  <div class="footer">
+    <hr/>
+    <p class="copyright">
+      © 2020 GimunLee
+      <br/>
+      This repository is licensed under the MIT license. See <a href="https://github.com/GimunLee/TIL/blob/master/LICENSE">LICENSE</a> for details.
+    </p>
+  </div>
 </template>
 
 <script>
@@ -22,10 +27,11 @@
 
 <style>
 .footer{
-  text-align:center;
+  text-align: center;
 }
 
 .copyright {
-  display:inline-block;
+  color: gray;
+  display: inline-block;
 }
 </style>
