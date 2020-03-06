@@ -1,4 +1,4 @@
-# 🍐🏭 Factory Pattern (1) - Factory Method Pattern
+# Factory Pattern (1) - Factory Method Pattern
 
 <AssembledByGimunLee/>
 
@@ -411,6 +411,6 @@ Factory Pattern은 매우 중요하고 활용도가 높은 패턴아며 그만�
 
 <br/>
 
-## Reference & Additional Resources
+## References
 
-- HeadFirstDesignPattern
+- Head First Design Patterns

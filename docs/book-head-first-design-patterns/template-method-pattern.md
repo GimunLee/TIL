@@ -1,4 +1,4 @@
-# 🍐📋 Template Method Pattern
+# Template Method Pattern
 
 <AssembledByGimunLee/>
 
@@ -264,6 +264,6 @@ Template Method Pattern와 Strategy Pattern은 상당히 유사해보이는데, 
 
 <br/>
 
-## Reference & Additional Resources
+## References
 
-- HeadFirstDesignPattern
+- Head First Design Patterns

@@ -1,4 +1,4 @@
-# 🍐📱 Strategy Pattern
+# Strategy Pattern
 
 <AssembledByGimunLee/>
 
@@ -179,8 +179,9 @@
 
 <br/>
 
-## Reference & Additional Resources
+## References
 
-- HeadFirstDesignPattern
-- https://limmmee.tistory.com/5#recentComments 
-- https://itewbm.tistory.com/entry/Strategy-Pattern-Head-First-Design-Patterns 
+- Head First Design Patterns
+- [스트래티지 패턴](https://limmmee.tistory.com/5#recentComments)
+- [Strategy Pattern | Head First Design Patterns](https://itewbm.tistory.com/entry/Strategy-Pattern-Head-First-Design-Pattern)
+

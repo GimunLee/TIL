@@ -1,4 +1,4 @@
-# 🍐🏭 Factory Pattern (2) - Abstract Factory Pattern
+# Factory Pattern (2) - Abstract Factory Pattern
 
 <AssembledByGimunLee/>
 
@@ -231,6 +231,6 @@ public class NYPizzaStore extends PizzaStore {
 
 <br/>
 
-## Reference & Additional Resources
+## References
 
-- HeadFirstDesignPattern
+- Head First Design Patterns
