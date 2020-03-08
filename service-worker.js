@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "88462c49eee42c011ab18a2a5dcd6449"
+    "revision": "ad0d35d11aa249b3ed54eba3366f7711"
   },
   {
     "url": "assets/css/0.styles.579c7813.css",
@@ -158,7 +158,7 @@ self.__precacheManifest = [
     "revision": "c461158ae53ea085867a35c26ccadf8a"
   },
   {
-    "url": "assets/js/12.e36d2779.js",
+    "url": "assets/js/12.23e972f7.js",
     "revision": "e64e98fb248b1b5d60aed59504056f75"
   },
   {
@@ -182,8 +182,8 @@ self.__precacheManifest = [
     "revision": "9d4cd2399fbcd047b1f83845ecec2c75"
   },
   {
-    "url": "assets/js/18.d2befd1b.js",
-    "revision": "195d49709449085183d3e8e25f34441f"
+    "url": "assets/js/18.c1daf446.js",
+    "revision": "df852cf8e9141cdb9074f6d8bf3f9b9e"
   },
   {
     "url": "assets/js/19.78c0de15.js",
@@ -194,7 +194,7 @@ self.__precacheManifest = [
     "revision": "58ecf84cd96fe828522b815f3b7da2bb"
   },
   {
-    "url": "assets/js/3.d362404b.js",
+    "url": "assets/js/3.c0b17930.js",
     "revision": "5734fb89a35a33dfe366c21ce4a86e3c"
   },
   {
@@ -202,11 +202,11 @@ self.__precacheManifest = [
     "revision": "a48b88da4b1e97741ee963d7a403e4e0"
   },
   {
-    "url": "assets/js/5.844ef120.js",
+    "url": "assets/js/5.dc20e91a.js",
     "revision": "3cd81cb88985784636fa4eb885c81236"
   },
   {
-    "url": "assets/js/6.4851535b.js",
+    "url": "assets/js/6.482e4e55.js",
     "revision": "503022b43d7bff0d43c35bfb20aebdca"
   },
   {
@@ -214,56 +214,56 @@ self.__precacheManifest = [
     "revision": "acc5e1ecf5527d3236b6e6dff169ff62"
   },
   {
-    "url": "assets/js/8.88e7e6f9.js",
-    "revision": "e35994ab485e91ccc0fc8925b3f2057f"
+    "url": "assets/js/8.f4676a85.js",
+    "revision": "8419e2eac2069464f4fbb7d15c81bdf1"
   },
   {
     "url": "assets/js/9.9dfb2b84.js",
     "revision": "2758aa597853038a2ac54a85d985cb86"
   },
   {
-    "url": "assets/js/app.ac378d6d.js",
-    "revision": "ab8e14d0d76e2e751f87f55f73c154d5"
+    "url": "assets/js/app.2ccf7f2c.js",
+    "revision": "9d2b1ffb6a8931db5d8b1c7be5756628"
   },
   {
-    "url": "book-head-first-design-patterns/factory-pattern-(1)-factory-method-pattern.html",
-    "revision": "1889e936aa0cdad2a2565c889f0fed94"
+    "url": "book-head-first-design-patterns/Factory Pattern (1) - Factory Method Pattern.html",
+    "revision": "a05eab45ebd3b188581f58cffe28f9bb"
   },
   {
-    "url": "book-head-first-design-patterns/factory-pattern-(2)-abstract-factory-fattern.html",
-    "revision": "bf70e05dc9673e7286f477505ae4e978"
+    "url": "book-head-first-design-patterns/Factory Pattern (2) - Abstract Factory Pattern.html",
+    "revision": "54404e27fd17a4aea4fa8d3c10517cbe"
   },
   {
-    "url": "book-head-first-design-patterns/strategy-pattern.html",
-    "revision": "8e6909de2afc200ffa2723a9f643c458"
+    "url": "book-head-first-design-patterns/Strategy Pattern.html",
+    "revision": "474443d41481a1f457aed6582c23daaa"
   },
   {
-    "url": "book-head-first-design-patterns/template-method-pattern.html",
-    "revision": "da4ed054723900e6fe2a8aa8853ab1e0"
+    "url": "book-head-first-design-patterns/Template Method Pattern.html",
+    "revision": "0c4e832a7b868143bcd1c33c5c1803b3"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "84afe3adb61ba6e7efd0e57837cf9217"
+    "revision": "b9a84f8041a6eedf38f5a0f1d3c398c0"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "fb99e8710ac819690b3d5eaae80c31de"
+    "revision": "d076620e2edbca1687e477777ab9dced"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "fd86f16a14a814648afc94ca082aea63"
+    "revision": "d01f7318194cdbc2b49362bba1700e18"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "3be7d5e737dfd02ca5e91a0df7726bb5"
+    "revision": "fa94fb41b2528e31f74ea0aac281e6bc"
   },
   {
-    "url": "etc/quickstart-guide to-til.html",
-    "revision": "b50cf40791f37adae07dafe0329f4011"
+    "url": "etc/Quick Start Guide to TIL.html",
+    "revision": "62eb6b103d5795e72d9217d2ad7e50c7"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "4bfa3d241d9854cabb2f674fb8707916"
+    "revision": "30b2c6a322acb0e76efedc4a9a7d08e1"
   },
   {
     "url": "images/logo-144.png",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "066f92dd1c4070b8a028cdd9430192ee"
+    "revision": "83bc9a5914f7213f8bc84acadd5f0aac"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
