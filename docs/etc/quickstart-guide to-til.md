@@ -71,15 +71,15 @@ $ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 **2) gh-pages.pub (public key) → Deploy Keys**
 
-<img src="./resources/quickstart-guide to-til-002.png" height=300>
+<img src="./resources/quickstart-guide to-til-002.png" width="80%">
 
 **3) gh-pages (private key) → Secrets**
 
-<img src="./resources/quickstart-guide to-til-003.png" height=300>
+<img src="./resources/quickstart-guide to-til-003.png"  width="80%">
 
 **4) Create wrokflow**
 
-<img src="./resources/quickstart-guide to-til-001.png" height=200>
+<img src="./resources/quickstart-guide to-til-001.png"  width="50%">
 
 **5) Change the content to the script below**
 
@@ -111,7 +111,7 @@ jobs:
 
 ### 7. GitHub Pages Setting
 
-<img src="./resources/quickstart-guide to-til-004.png" height=500>
+<img src="./resources/quickstart-guide to-til-004.png"  width="80%">
 
 ### 8. Add plugin
 
