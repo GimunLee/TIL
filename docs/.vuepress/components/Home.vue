@@ -9,7 +9,7 @@
     <br/>
     
     <div class="contents">
-      <img class="profile" src="./resources/profile-made-by-anna.png">
+      <img class="profile" src="./resources/profile-made-by-anna.png" width="70%">
     </div>
     
     <br/>
