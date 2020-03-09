@@ -1,4 +1,4 @@
-# Factory Pattern (2) - Abstract Factory Pattern
+# Factory Pattern (2) Abstract Factory Pattern
 
 <AssembledByGimunLee/>
 

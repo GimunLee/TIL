@@ -1,4 +1,4 @@
-# Factory Pattern (1) - Factory Method Pattern
+# Factory Pattern (1) Factory Method Pattern
 
 <AssembledByGimunLee/>
 
