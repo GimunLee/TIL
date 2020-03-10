@@ -2,8 +2,6 @@
 
 <AssembledByGimunLee/>
 
-<br/>
-
 ## Goal
 
 - Template Method Pattern의 개념을 알 수 있다.

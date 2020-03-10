@@ -2,8 +2,6 @@
 
 <AssembledByGimunLee/>
 
-<br/>
-
 ## Goal
 
 - Strategy Pattern의 개념을 알 수 있다.

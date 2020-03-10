@@ -2,8 +2,6 @@
 
 <AssembledByGimunLee/>
 
-<br/>
-
 ***[팩토리 메소드 패턴](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#-factory-pattern-1---factory-method-pattern)과 이어지므로, 앞 장을 미리 읽고 오시는 것을 추천합니다.***
 
 ## Goal

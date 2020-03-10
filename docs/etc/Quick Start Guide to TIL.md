@@ -2,8 +2,6 @@
 
 <AssembledByGimunLee/>
 
-<br/>
-
 ## Tech Stack
 
 - VuePress → View
