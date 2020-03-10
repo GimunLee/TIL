@@ -9,7 +9,7 @@
 - VuePress → View
 - GitHub Repository → Repository
 - GitHub Pages → Hosting
-- GitHub Actions → Deploy
+- GitHub Actions → Automatically build and deploy
 
 <br/>
 
