@@ -1,6 +1,5 @@
 <template>
   <p id="abg">Assembled by GimunLee</p>
-  <br/>
 </template>
 
 <style>
