@@ -1,8 +1,8 @@
-# Web Server와 WAS의 차이
+# Web Server와 WAS
 
 <AssembledByGimunLee>
 
-## Web Server
+## Web Server란
 
 Web Server는 소프트웨어와 하드웨어로 구분된다.
 
@@ -26,7 +26,7 @@ Web Server에는 **Apache Server, Nginx, IIS(Windows 전용 Web 서버)** 등이
 
 <br/>
 
-## WAS(Web Application Server)
+## WAS(Web Application Server)란
 
 <img src="./resources/web-server-was-diff-001.png">
 
@@ -60,7 +60,18 @@ WAS에는 **Tomcat, JBoss, Jeus, Web Sphere** 등이 있다.
 
 <br/>
 
+## **Web Server와 WAS의 차이**
+
+동적 콘텐츠 처리를 수행 가능한가 아닌가로 구분된다. WAS는 정적, 동적 둘다 처리 가능하지만 정적 처리를 WAS가 하게되면 부하가 많이 걸려서 좋지 않다.
+
+Tomcat(WAS)에는 Apache(Web Server)의 기능(HTTPD)를 포함하고 있다. 여기서 HTTPD는 웹 서버의 백그라운드에서 실행되어 들어오는 서버 요청을 대기하는 소프트웨어 프로그램이다. 
+
+추가로 Tomcat이 WAS, Web Server를 따로 두고 쓰는 이유가 성능 때문이라고 하는 건 잘못되었다. Tomcat 5.5 이상부터는 HTTPD의 native 모듈을 사용하여 정적파일 처리 기능을 제공하는데, 이것이 순수 아파치 HTTPD만 사용하는 것과 비교해서 성능이 전혀 떨어지지 않기 때문이다. 그럼에도 Tomcat(WAS) 앞에 Apache(Web Server)를 두는 이유는 하나의 서버에서 php 애플리케이션과 java 애플리케이션을 함께 사용하거나, Apache(Web Server)의 HTTPD 서버가 간단한 로드밸런싱을 위해서 사용해야 할 때 필요하기 때문이다.
+
+<br/>
+
 ## References
 
 - [Web Server와 WAS의 차이와 웹 서비스 구조](https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html)
 - [웹 서버(Web Server) 와 WAS 란?](https://hoon-k.tistory.com/5)
+- [WAS 와 웹 서버 차이 (WAS,Web Server) 그리고 아파치, 톰캣](https://jeong-pro.tistory.com/84)
