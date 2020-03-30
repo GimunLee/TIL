@@ -1,6 +1,6 @@
 # HTTP 상태 코드
 
-<AssembledByGimunLee>
+<AssembledByGimunLee/>
 
 ## Introduction
 
