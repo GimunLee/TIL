@@ -5,7 +5,7 @@
 <style>
 #abg{
   font-family: fantasy;
-  margin: 0;
+  margin: 0 0 10px 0;
   font-style: oblique;
 }
 </style>
