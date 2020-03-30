@@ -26,6 +26,5 @@ CORS는 Cross-Origin Resource Sharing의 약자로 **도메인** 또는 **포트
 
 - [CORS에 대한 간단한 고찰](https://velog.io/@wlsdud2194/cors)
 - [교차 출처 리소스 공유 (CORS)](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)
-
 - [배워가는블로거](https://zamezzz.tistory.com/137)
 
