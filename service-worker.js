@@ -26,8 +26,8 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "assets/css/0.styles.107bf7fb.css",
-    "revision": "3a73cc8d60d82da4000ce14137ce0b5d"
+    "url": "assets/css/0.styles.929f1c28.css",
+    "revision": "1eeefadb55724b6e76a5255e995d3cf1"
   },
   {
     "url": "assets/img/cors-001.edb76f88.png",
@@ -238,52 +238,52 @@ self.__precacheManifest = [
     "revision": "cff36ee1a4b710676d1116ea47bf53c9"
   },
   {
-    "url": "assets/js/9.9d1de9cf.js",
+    "url": "assets/js/9.c2e84958.js",
     "revision": "ed71893893da524064e19ca680575ef5"
   },
   {
-    "url": "assets/js/app.85da2a1a.js",
-    "revision": "5f141e629935fd3e026207b1c1dda4aa"
+    "url": "assets/js/app.b2ace50b.js",
+    "revision": "18329a887e8fcbec45d3b1715e87ce3f"
   },
   {
     "url": "book-head-first-design-patterns/FP1 Factory Method Pattern.html",
-    "revision": "55fdfae28a23fad5717d623ab6b01384"
+    "revision": "5dd99673947043c6ddee547bc13cc478"
   },
   {
     "url": "book-head-first-design-patterns/FP2 Abstract Factory Pattern.html",
-    "revision": "f38ea9177b25f821ed3b8d00ea72df21"
+    "revision": "03e394aa01fe1ec209c07290ae0878e0"
   },
   {
     "url": "book-head-first-design-patterns/Strategy Pattern.html",
-    "revision": "07b6323637eef5e2e11b9e6ca7dccccb"
+    "revision": "ff7d11b769e89d9a7e706de8dc1092bc"
   },
   {
     "url": "book-head-first-design-patterns/Template Method Pattern.html",
-    "revision": "bfab1ebec191d1022dcb5860197c6dcd"
+    "revision": "3542f86e8ebbe4967c304507931253cd"
   },
   {
     "url": "book-object/01장 객체, 설계.html",
-    "revision": "94ee77ef7211f5116ef44061c87c9146"
+    "revision": "50ede22d49bbf8e31239936f28cdb736"
   },
   {
     "url": "book-object/03장 역할, 책임, 협력.html",
-    "revision": "b8fae3510b630f562415c7f5e2ef067a"
+    "revision": "5a7d62befc866a63e87a3c98bd40cbc9"
   },
   {
     "url": "book-object/04장 설계 품질과 트레이드오프.html",
-    "revision": "172e19552298677eee85dd8bcd0957fe"
+    "revision": "b65015acbbdd2867c0b368597e2f1637"
   },
   {
     "url": "book-object/05장 책임 할당하기.html",
-    "revision": "4d6e391db01b8a7789bf1d5b08728373"
+    "revision": "bf5052d10d15dae4e9e70fd71273df70"
   },
   {
     "url": "etc/Quick Start Guide to TIL.html",
-    "revision": "31ba3a925ffe1f16455589256d51a235"
+    "revision": "2d91c61138f38c884bd545c0ddbd42ae"
   },
   {
     "url": "goals-for/2020.html",
-    "revision": "cf4cc816f52aae84e4e8ed6c9d83899e"
+    "revision": "605a385e904dd9929162041e6e0c05b4"
   },
   {
     "url": "images/logo-144.png",
@@ -291,19 +291,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1d38108c3cee1db93f77992cbfbd45d4"
+    "revision": "d35e2cf1d818ed487146d1a68631473d"
   },
   {
     "url": "web/Cross-Origin Resource Sharing.html",
-    "revision": "a2d0e8937d3490bca716f2063748cf21"
+    "revision": "6670f4043afb9a83742dbc6f6829b18f"
   },
   {
     "url": "web/HTTP 상태 코드.html",
-    "revision": "5faf9488fa0d1ff8a3fb7a7d9e55244e"
+    "revision": "49211f1e18ca5fa8609876fea819e006"
   },
   {
     "url": "web/Web Server와 WAS.html",
-    "revision": "b5df97c4cdcbd812616d9a62592aec50"
+    "revision": "ec554e2c19ad51776107a890395805e3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
