@@ -1,6 +1,6 @@
 # Quick Start Guide to TIL
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## Tech Stack
 

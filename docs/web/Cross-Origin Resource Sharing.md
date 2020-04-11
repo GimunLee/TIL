@@ -1,6 +1,6 @@
 # CORS(Cross-Origin Resource Sharing)
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## CORS란?
 

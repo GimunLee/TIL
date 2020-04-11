@@ -1,6 +1,6 @@
 # Web Server와 WAS
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## Web Server란
 

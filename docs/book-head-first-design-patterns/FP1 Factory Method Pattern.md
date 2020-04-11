@@ -1,6 +1,6 @@
 # Factory Pattern (1) Factory Method Pattern
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## Goal
 

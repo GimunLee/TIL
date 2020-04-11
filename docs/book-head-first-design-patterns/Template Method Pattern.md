@@ -1,6 +1,6 @@
 # Template Method Pattern
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## Goal
 

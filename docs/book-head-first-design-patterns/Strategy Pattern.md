@@ -1,6 +1,6 @@
 # Strategy Pattern
 
-<AssembledByGimunLee/>
+<ABG/>
 
 ## Goal
 
