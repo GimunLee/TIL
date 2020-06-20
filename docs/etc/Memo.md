@@ -6,7 +6,7 @@
 
 - **Error**
 
-  `fatal: could not read Username for 'https://github.com': Device not configured Fatal: Could not fetch release/v1.1.0 from origin.`
+  `fatal: could not read Username for 'https://github.com': Device not configured Fatal: Could not fetch release/v1.10.0 from origin.`
 
 - **Solution**
 
