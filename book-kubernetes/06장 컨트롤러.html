@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>06장 컨트롤러 | 📝 Today Gimun Learned</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/TIL/images/logo-144.png">
+    <link rel="manifest" href="/TIL/manifest.json">
+    <meta name="description" content="Personal Wiki (Today I Learned)">
+    <link rel="preload" href="/TIL/assets/css/0.styles.d478e3a5.css" as="style"><link rel="preload" href="/TIL/assets/js/app.e1523c4a.js" as="script"><link rel="preload" href="/TIL/assets/js/2.665be0f4.js" as="script"><link rel="preload" href="/TIL/assets/js/25.c83e441f.js" as="script"><link rel="preload" href="/TIL/assets/js/9.f373b0c6.js" as="script"><link rel="preload" href="/TIL/assets/js/10.0186ca23.js" as="script"><link rel="prefetch" href="/TIL/assets/js/11.f908820b.js"><link rel="prefetch" href="/TIL/assets/js/12.676d19bd.js"><link rel="prefetch" href="/TIL/assets/js/13.c6904bf2.js"><link rel="prefetch" href="/TIL/assets/js/14.d70e2670.js"><link rel="prefetch" href="/TIL/assets/js/15.0cf9fae9.js"><link rel="prefetch" href="/TIL/assets/js/16.986ee545.js"><link rel="prefetch" href="/TIL/assets/js/17.c592a804.js"><link rel="prefetch" href="/TIL/assets/js/18.c95b0edd.js"><link rel="prefetch" href="/TIL/assets/js/19.a3a8db9b.js"><link rel="prefetch" href="/TIL/assets/js/20.291ec964.js"><link rel="prefetch" href="/TIL/assets/js/21.a4bef1d3.js"><link rel="prefetch" href="/TIL/assets/js/22.4ad3925b.js"><link rel="prefetch" href="/TIL/assets/js/23.6d4bf165.js"><link rel="prefetch" href="/TIL/assets/js/24.28de3946.js"><link rel="prefetch" href="/TIL/assets/js/26.75f70a54.js"><link rel="prefetch" href="/TIL/assets/js/27.407380cf.js"><link rel="prefetch" href="/TIL/assets/js/28.482abb66.js"><link rel="prefetch" href="/TIL/assets/js/29.e177e2eb.js"><link rel="prefetch" href="/TIL/assets/js/3.023b1c34.js"><link rel="prefetch" href="/TIL/assets/js/30.d500500d.js"><link rel="prefetch" href="/TIL/assets/js/31.ee13034f.js"><link rel="prefetch" href="/TIL/assets/js/32.3856341e.js"><link rel="prefetch" href="/TIL/assets/js/33.d79a0db6.js"><link rel="prefetch" href="/TIL/assets/js/4.b0a67ecb.js"><link rel="prefetch" href="/TIL/assets/js/5.bad944ca.js"><link rel="prefetch" href="/TIL/assets/js/6.0b0888e7.js"><link rel="prefetch" href="/TIL/assets/js/7.f2e3f2f8.js"><link rel="prefetch" href="/TIL/assets/js/8.d4ba9dfe.js">
+    <link rel="stylesheet" href="/TIL/assets/css/0.styles.d478e3a5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/TIL/" class="home-link router-link-active"><!----> <span class="site-name">📝 Today Gimun Learned</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/GimunLee/TIL" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/GimunLee/TIL" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>🎯 Goals For</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>💎 Web</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>📖 Kubernetes</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/TIL/book-kubernetes/01장 쿠버네티스.html" class="sidebar-link">01장 쿠버네티스</a></li><li><a href="/TIL/book-kubernetes/02장 쿠버네티스 도구.html" class="sidebar-link">02장 쿠버네티스 도구</a></li><li><a href="/TIL/book-kubernetes/03장 쿠버네티스로 컨테이너 실행하기.html" class="sidebar-link">03장 쿠버네티스 컨테이너 실행하기</a></li><li><a href="/TIL/book-kubernetes/04장 쿠버네티스 기본 개념.html" class="sidebar-link">04장 쿠버네티스 기본 개념</a></li><li><a href="/TIL/book-kubernetes/05장 파드.html" class="sidebar-link">05장 파드</a></li><li><a href="/TIL/book-kubernetes/06장 컨트롤러.html" class="active sidebar-link">06장 컨트롤러</a></li><li><a href="/TIL/book-kubernetes/복사용.html" class="sidebar-link">/book-kubernetes/복사용.html</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>📖 Angular Essentials</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>📖 Object</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>📖 Head First Design Patterns</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>📚 ETC</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_06장-컨트롤러"><a href="#_06장-컨트롤러" class="header-anchor">#</a> 06장 컨트롤러</h1> <p id="abg">Assembled by GimunLee</p> <br> <h2 id="컨트롤러"><a href="#컨트롤러" class="header-anchor">#</a> 컨트롤러</h2> <ul><li><p><strong>컨트롤러란 파드들을 관리하는 역할</strong></p></li> <li><p>웹 서비스처럼 오랜 시간동안 계속 실행되어야 하는 파드들을 관리할 때는 <strong>레플리케이션 컨트롤러, 레플리카 세트, 디플로이먼트</strong></p></li> <li><p>클러스터의 전체 노드에 같은 파드를 실행할 때는 <strong>데몬 세트</strong></p></li> <li><p>상태가 없는 앱을 실행하는데 사용하는 컨테이너를 상태가 있는 앱을 실행할 때 사용하도록 만드는 <strong>스테이트풀세트</strong></p></li> <li><p>1회성 작접을 할 때 사용하는 <strong>잡</strong> , 주기적인 배치 작업을 실행할 때 사용하는 <strong>크론잡</strong></p></li> <li><p>이처럼 다양한 목적에 맞게 사용할 수 있는 컨트롤러가 있다는 것이 쿠버네티스의 큰 장점</p></li></ul> <br> <h2 id="레플리케이션-컨트롤러-replication-controller"><a href="#레플리케이션-컨트롤러-replication-controller" class="header-anchor">#</a> 레플리케이션 컨트롤러(Replication Controller)</h2> <ul><li>쿠버네티스 프로젝트의 초기부터 있었던 가장 기본적인 컨트롤러</li> <li>지정한 숫자만큼의 파드가 항상 클러스터 안에서 실행되도록 관리</li> <li>요즘에는 비슷한 역할을 하는 <strong>레플리카세트를</strong> 사용</li></ul> <br> <h2 id="레플리카세트-replicaset"><a href="#레플리카세트-replicaset" class="header-anchor">#</a> 레플리카세트(Replicaset)</h2> <ul><li><p>레플리카세트는 레플레케이션 컨트롤러의 발전형으로, 레플리케이션 컨트롤러와 같은 동작을 하지만, 집합 기반의 셀렉터(in, notin, exists)를 지원하는 차이점 존재</p></li> <li><p>레플리케이션 컨트롤러는 kubectl에서 rolling-update 옵션을 사용할 수 있지만 레플리카세트는 사용할 수 없다는 차이 존재</p></li> <li><p>레플리카세트를 사용하는데 rolling-update 옵션이 필요할 때는 디플로이먼트 사용</p></li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ReplicaSet
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>replicaset
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>replicaset
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>replicaset <span class="token comment"># selector에서 쓰일 이름</span>
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>replicaset
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">3</span> <span class="token comment"># 유지할 파드의 개수</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>replicaset <span class="token comment"># 어떤 레이블의 파드를 선택해서 관리할지 설정</span>
+</code></pre></div><h3 id="레플리카세트와-파드의-연관-관계"><a href="#레플리카세트와-파드의-연관-관계" class="header-anchor">#</a> 레플리카세트와 파드의 연관 관계</h3> <ul><li><p>파드는 레이블 기준으로 관리하므로 레플리카세트와 파드는 느슨하게 결합되어 있어, 수정, 삭제, 생성에 용이함</p></li> <li><p>레플리카세트 삭제를 파드에 영향을 안 주고 삭제시킬 수 있음</p> <div class="language-shell extra-class"><pre class="language-shell"><code>$ kubectl delete replicaset nginx-replicaset --cascade<span class="token operator">=</span>false
+</code></pre></div></li></ul> <br> <h2 id="디플로이먼트-deployment"><a href="#디플로이먼트-deployment" class="header-anchor">#</a> 디플로이먼트(Deployment)</h2> <ul><li>쿠버네티스에서 상태가 없는 앱을 배포할 때 사용하는 가장 기본적인 컨트롤러</li> <li>디플로이먼트는 레플리카세트를 관리하면서 앱 배포를 더 세밀하게 관리</li> <li>단순히 실행시켜야 할 파드 개수를 유지하는 것뿐 아니라 앱을 배포할 때 롤링 업데이트하거나, 앱 배포 도중 잠시 멈췄다 다시 배포할 수 있음</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Deployment
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">3</span> <span class="token comment"># 실행할 파드의 수 설정</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment <span class="token comment"># metadata.labels.app 과 같은 값을 설정 </span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment <span class="token comment"># 실제 사용하려는 컨테이너 이름</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx <span class="token comment"># 컨테이너 이미지</span>
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span> <span class="token comment"># 포트</span>
+</code></pre></div><h4 id="디플로이먼트-수정"><a href="#디플로이먼트-수정" class="header-anchor">#</a> 디플로이먼트 수정</h4> <ul><li>디플로이먼트 설정을 변경할 때마다 새로운 레플리카세트가 생성되고 그에 맞게 파드가 변경됨</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code>$ kubectl <span class="token builtin class-name">set</span> image deployment/nginx-deployment nginx-deployment<span class="token operator">=</span>nginx:1.191
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code>$ kubectl edit deploy nginx-deployment
+<span class="token comment"># 편집기 시작</span>
+<span class="token comment"># 편집기 종료 후</span>
+deployment.extentions/nginx-deployment edited
+</code></pre></div><h4 id="디플로이먼트-롤백하기"><a href="#디플로이먼트-롤백하기" class="header-anchor">#</a> 디플로이먼트 롤백하기</h4> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 정보 확인</span>
+$ kubectl rollout <span class="token function">history</span> deploy nginx-deployment	
+
+<span class="token comment"># 상세 내용 확인</span>
+$ kubectl rollout <span class="token function">history</span> deploy nginx-deployment --revision<span class="token operator">=</span><span class="token number">3</span>
+
+<span class="token comment"># 현재 리비전을 되돌림</span>
+$ kubcetl rollout undo deploy nginx-deployment
+
+<span class="token comment"># 특정 리비전(3)으로 실행 중인 파드 되돌리기</span>
+$ kubectl rollout undo deploy nginx-deployment --to-revision<span class="token operator">=</span><span class="token number">3</span>
+</code></pre></div><ul><li>되돌릴 수 있는 리비전 숫자는 디플로이먼트의 템플릿의 <code>.spec.revisionHistoryLimit</code> 필드 값(default: 10)</li></ul> <h4 id="파드-개수-조정하기"><a href="#파드-개수-조정하기" class="header-anchor">#</a> 파드 개수 조정하기</h4> <ul><li>실행 중인 디플로이먼트의 파드 개수를 조정하려면 <code>kubectl scale</code> 명령 실행</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code>$ kubectl scale deploy nginx-deployment --replicas<span class="token operator">=</span><span class="token number">5</span>
+</code></pre></div><h3 id="디플로이먼트-배포-정리-배포-재개-재시작하기"><a href="#디플로이먼트-배포-정리-배포-재개-재시작하기" class="header-anchor">#</a> 디플로이먼트 배포 정리, 배포 재개, 재시작하기</h3> <ul><li><code>kubectl rollout</code> 명령을 이용해서 진행 중인 배포를 잠시 멈췄다가 다시 시작할 수 있음</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 업데이트 멈추기</span>
+$ kubectl rollout pause deploy/nginx-deployment
+
+<span class="token comment"># 재개</span>
+$ kubectl rollout resume deploy/nginx-deployment
+</code></pre></div><h3 id="디플로이먼트-상태"><a href="#디플로이먼트-상태" class="header-anchor">#</a> 디플로이먼트 상태</h3> <ul><li>배포 중에는 디플로이먼트 상태가 변함</li></ul> <h4 id="진행-progressing"><a href="#진행-progressing" class="header-anchor">#</a> 진행(Progressing)</h4> <ul><li>디플로이먼트가 새로운 레플리카세트를 만들 때</li> <li>디플로이먼트가 새로운 레플리카세트의 파드 개수를 늘릴 때</li> <li>디플로이먼트가 예전 레플리카세트의 파드 개수를 줄일 때</li> <li>새로운 파드가 준비 상태가 되거나 이용 가능한 상태가 되었을 때</li></ul> <h4 id="완료-complete"><a href="#완료-complete" class="header-anchor">#</a> 완료(Complete)</h4> <ul><li>디플로이먼트가 관리하는 모든 레플리카세트가 업데이 완료되었을 때</li> <li>모든 레플리카세트가 사용 가능해졌을 때</li> <li>예전 레플리카세트가 모두 종료되었을 때</li></ul> <h4 id="실패-fail"><a href="#실패-fail" class="header-anchor">#</a> 실패(Fail)</h4> <ul><li>쿼터 부족</li> <li>readinessProbe 진단 실패</li> <li>컨테이너 이미지 가져오기 에러</li> <li>권한 부족</li> <li>제한 범위 초과</li> <li>앱 실행 조건을 잘못 지정</li></ul> <div class="language-shell extra-class"><pre class="language-shell"><code>$ kubectl decribe deploy nginx-deployment
+Conditions:
+	Type				Status		Reason
+	----				------		------
+	Available   True	    MinimunReplicasAvailable
+	Progressing	False 	  ProgressDeadlineExceeded
+</code></pre></div><br> <h2 id="데몬세트"><a href="#데몬세트" class="header-anchor">#</a> 데몬세트</h2> <ul><li>데몬세트는 클러스터 전체 노드에 특정 파드를 실행할 때 사용하는 컨트롤러</li> <li>클러스터 안에 새롭게 노드가 추가되었을 때 데몬세트가 자동으로 해당 노드에 파드 실행</li> <li>데몬세트트 보통 로그 수집기를 실행하거나 노드를 모니터링하는 모니터링용 데몬 등 클러스터 전체에 항상 실행시켜두어야 하는 파드에 사용</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> DaemonSet
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> fluentd<span class="token punctuation">-</span>elasticsearch
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> kube<span class="token punctuation">-</span>system <span class="token comment"># 관리용 파드나 설정에 해당하므로 kube-system 네임스페이스 설정</span>
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>	<span class="token comment"># 오브젝트를 식별하는 레이블</span>
+    <span class="token key atrule">k8s-app</span><span class="token punctuation">:</span> fluentd<span class="token punctuation">-</span>logging
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">name</span><span class="token punctuation">:</span> fluentd<span class="token punctuation">-</span>elasticsearch
+  <span class="token key atrule">updateStrategy</span><span class="token punctuation">:</span>
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> RollingUpdate <span class="token comment"># Ondelete와 RollingUpdate 두 가지 값중 하나 선택</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">name</span><span class="token punctuation">:</span> fluentd<span class="token punctuation">-</span>elasticsearch
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> fluentd<span class="token punctuation">-</span>elasticsearch
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> fluent/fluentd<span class="token punctuation">-</span>kubernetes<span class="token punctuation">-</span>daemonset<span class="token punctuation">:</span>elasticsearch
+        <span class="token key atrule">env</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> testenv
+          <span class="token key atrule">value</span><span class="token punctuation">:</span> value
+        <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+          <span class="token key atrule">limits</span><span class="token punctuation">:</span>
+            <span class="token key atrule">memory</span><span class="token punctuation">:</span> 200Mi
+          <span class="token key atrule">requests</span><span class="token punctuation">:</span>
+            <span class="token key atrule">cpu</span><span class="token punctuation">:</span> 100m
+            <span class="token key atrule">memory</span><span class="token punctuation">:</span> 200Mi
+</code></pre></div><br> <h2 id="스테이트풀세트"><a href="#스테이트풀세트" class="header-anchor">#</a> 스테이트풀세트</h2> <ul><li>스테이트풀세트는 상태가 있는 파드들을 관리하는 컨트롤러</li> <li>볼륨을 사용해서 특정 데이터를 저장한 후 파드를 재시작했을 때 해당 데이터를 유지</li> <li>여러 개의 파드 사이에 순서를 지정해서 실행되도록 할 수도 있음</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1 <span class="token comment"># 스테이트풀세트에서 사용할 서비스 설정 </span>
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Service
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset<span class="token punctuation">-</span>service
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset<span class="token punctuation">-</span>service
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">80</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> web
+  <span class="token key atrule">clusterIP</span><span class="token punctuation">:</span> None
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset<span class="token punctuation">-</span>service
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> StatefulSet
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> web <span class="token comment"># 스테이트풀세트의 이름</span>
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset
+  <span class="token key atrule">serviceName</span><span class="token punctuation">:</span> <span class="token string">&quot;nginx-statefulset-service&quot;</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">3</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">terminationGracePeriodSeconds</span><span class="token punctuation">:</span> <span class="token number">10</span> <span class="token comment"># 그레이스풀의 대기 시간 설정</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>statefulset
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+          <span class="token key atrule">name</span><span class="token punctuation">:</span> web%
+</code></pre></div><ul><li><p><strong>그레이스풀(gracefull):</strong> 실행 중인 프로세스를 종료할 때 바로 종료하는 것이 아니라 하던 작업을 마무리하고 정상적으로 종료하는 것을 의미</p></li> <li><p><code>.spec.podManagement</code> Policy 필드를 이용해 순서를 없앨 수도 있음</p></li></ul> <br> <h2 id="잡-job"><a href="#잡-job" class="header-anchor">#</a> 잡(Job)</h2> <ul><li>잡은 실행된 후 종료해야 하는 성격의 작업을 실행시킬 때 사용하는 컨트롤러</li> <li>특정 개수만큼의 파드를 정상적으로 실행 종료함을 보장함</li> <li>파드 실행 실패, 하드웨어 장애 발생, 노드 재시작 등 문제가 발생하면 다시 파드 실행</li> <li>잡 하나가 파드 여러 개 실행 가능</li></ul> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> batch/v1 <span class="token comment"># 잡이 사용하는 버전</span>
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Job
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> pi
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> pi
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> perl
+        <span class="token key atrule">command</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;perl&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;-Mbignum=bpi&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;-wle&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;print bpi(2000)&quot;</span><span class="token punctuation">]</span> <span class="token comment"># 원주율 계산 펄(perl) 명령</span>
+      <span class="token key atrule">restartPolicy</span><span class="token punctuation">:</span> Never <span class="token comment"># 항상 성공으로 끝나도록 설정(OnFailure: 비정상적으로 실행 종료된 파드 관리)</span>
+  <span class="token key atrule">backoffLimit</span><span class="token punctuation">:</span> <span class="token number">4</span> <span class="token comment"># 최대 몇 번까지 재시작할 것인지 설정</span>
+</code></pre></div><h3 id="잡-병렬설-관리"><a href="#잡-병렬설-관리" class="header-anchor">#</a> 잡 병렬설 관리</h3> <ul><li>잡 하나가 몇 개의 파드를 동시에 실행할지를 '잡 병렬성'이라고 함</li></ul> <h3 id="잡의-종류"><a href="#잡의-종류" class="header-anchor">#</a> 잡의 종류</h3> <h4 id="단일-잡"><a href="#단일-잡" class="header-anchor">#</a> 단일 잡</h4> <ul><li>파드 하나만 실행</li> <li>파드가 정상적으로 실행 종료(파드 생명 주기가 Succeeded)되면 잡 실행을 완료</li> <li><code>.spec.completions</code>와 <code>.spec.parallelism</code> 필드를 설정하지 않음</li></ul> <h4 id="완료-개수가-있는-병렬-잡"><a href="#완료-개수가-있는-병렬-잡" class="header-anchor">#</a> 완료 개수가 있는 병렬 잡</h4> <ul><li><code>.spec.completions</code> 필드 값으로 양수를 설정. 필드 값이 1이면 정상적으로 실행 종료된 파드가 1개만 생겨도 잡이 완료</li> <li><code>.spec.parallelism</code> 필드는 설정하지 않거나 기본값인 1로 설정</li></ul> <h4 id="워크-큐가-있는-병렬-잡"><a href="#워크-큐가-있는-병렬-잡" class="header-anchor">#</a> 워크 큐가 있는 병렬 잡</h4> <ul><li><code>.spec.completions</code> 필드는 설정하지 않고, <code>.spec.parallelism</code> 필드는 양수로 설정</li> <li>파드 각각은 정상적으로 실행 종료됐는지를 독립적으로 결정 가능</li> <li>대기열에 있는 작업들이 모두 동시에 실행될 수 있음</li> <li>파드 하나라도 정상적으로 실행 종료되면 새로운 파드가 실행되지 않음</li> <li>최소한 파드 1개가 정상적으로 종료된 후 모든 파드가 실행 종료되면, 잡이 정상적으로 종료됨</li> <li>파드 1개가 정상적으로 실행 종료되면 다른 파드는 더 이상 동작하지 않거나 어떤 작업 처리 결과를 내지 않음</li></ul> <h3 id="잡-패턴"><a href="#잡-패턴" class="header-anchor">#</a> 잡 패턴</h3> <ul><li>잡에서 파드를 병렬로 실행했을 때 파드 각각이 서로 통신하면서 동작하지 않음</li></ul> <h4 id="잡의-일반적인-사용-패턴"><a href="#잡의-일반적인-사용-패턴" class="header-anchor">#</a> 잡의 일반적인 사용 패턴</h4> <ul><li>잡을 생성하는 오버헤드가 크기 때문에 작업마다 잡을 하나씩 생성해 사용하는 것보다는 모든 작업을 관리하는 잡 하나를 사용하는 것이 좋음</li> <li>작업 개수만큼의 파드를 생성하는 것보다 파드 하나가 여러 개의 작업을 처리하는 것이 좋음</li> <li>워크 큐를 사용한다면 카프카나 RabbitMQ 같은 큐 서비스로 워크 큐를 구현하도록 깆ㄴ 프로그램이나 컨테이너를 수정해야함</li></ul> <br> <h2 id="크론잡-cronjob"><a href="#크론잡-cronjob" class="header-anchor">#</a> 크론잡(CronJob)</h2> <ul><li>크론잡은 잡을 시간 기준으로 관리하도록 생성</li> <li>지정한 시간에 한번만 잡을 실행하거나 지정한 시간동안 주기적으로 잡을 반복 실행 가능</li></ul> <br> <h2 id="referenses"><a href="#referenses" class="header-anchor">#</a> Referenses</h2> <ul><li>쿠버네티스 입문 - 90가지 예제로 배우는 컨테이너 관리 자동화 표준 / 동양북스</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">6/21/2020, 2:46:21 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/TIL/book-kubernetes/05장 파드.html" class="prev">
+        05장 파드
+      </a></span> <span class="next"><a href="/TIL/book-kubernetes/복사용.html">
+        /book-kubernetes/복사용.html
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/TIL/assets/js/app.e1523c4a.js" defer></script><script src="/TIL/assets/js/2.665be0f4.js" defer></script><script src="/TIL/assets/js/25.c83e441f.js" defer></script><script src="/TIL/assets/js/9.f373b0c6.js" defer></script><script src="/TIL/assets/js/10.0186ca23.js" defer></script>
+  </body>
+</html>
