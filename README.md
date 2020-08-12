@@ -2,4 +2,4 @@
 
 <AssembledByGimunLee/>
 
-gimunlee.github.io/til/
+https://gimunlee.github.io/TIL/
